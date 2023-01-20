@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
 
 import '../../src/basics_screen/basics_screen.dart';
 import '../../src/basics_screen/pages/01_animated_builder.dart';
@@ -22,11 +25,13 @@ import '../../src/basics_screen/pages/18_physics_card_drag.dart';
 import '../../src/basics_screen/pages/19_repeating_animation.dart';
 
 
-
-import '../projects_screen/projects_screen.dart';
+import '../widgets_screen/widgets_screen.dart';
 import '../widgets_screen/pages/01_icon.dart';
 import '../widgets_screen/pages/02_text.dart';
-import '../widgets_screen/widgets_screen.dart';
+
+
+import '../projects_screen/projects_screen.dart';
+
 
 Map<String, WidgetBuilder> getApplicationRoutes() {
 
@@ -58,6 +63,9 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/widgets_screen'      : (BuildContext context) => const WidgetsScreen(showNavBottomBar: true),
     '/widgets_01'          : (BuildContext context) => const IconWidget(),
     '/widgets_02'          : (BuildContext context) => const TextWidget(),
+    '/widgets_03'          : (BuildContext context) => const CircleAvatarPage(),
+    '/widgets_04'          : (BuildContext context) => const ToggleButtonsWidget(),
+    '/widgets_05'          : (BuildContext context) => const ContainerWidget(),
     
 
 
