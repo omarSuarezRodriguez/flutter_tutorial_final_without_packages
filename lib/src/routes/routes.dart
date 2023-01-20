@@ -11,6 +11,11 @@ import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/13_grid_list.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/14_expansion_tile.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/15_dimissiable_list.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/16_reorderable_list.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/17_data_table.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/18_basic_app_bar.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/19_search.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/20_sliver_app_bar.dart';
 
 import '../../src/basics_screen/basics_screen.dart';
 import '../../src/basics_screen/pages/01_animated_builder.dart';
@@ -78,6 +83,12 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/widgets_13'          : (BuildContext context) => const GridListWidget(),
     '/widgets_14'          : (BuildContext context) => const ExpansionTileWidget(),
     '/widgets_15'          : (BuildContext context) => const DimissiableListWidget(),
+    '/widgets_16'          : (BuildContext context) => const ReordeableListWidget(),
+    '/widgets_17'          : (BuildContext context) => const DataTableWidget(),
+    '/widgets_18'          : (BuildContext context) => const BasicAppBarWidget(),
+    '/widgets_19'          : (BuildContext context) => const SearchWidget(),
+    '/widgets_20'          : (BuildContext context) => const SliverAppBarWidget(),
+    
     
     
     

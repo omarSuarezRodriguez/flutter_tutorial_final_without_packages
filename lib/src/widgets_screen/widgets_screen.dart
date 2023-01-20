@@ -226,6 +226,76 @@ class WidgetsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/widgets_16');
+            },
+            child: const ListTile(
+              title: Text('16. Reordeable List'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/widgets_17');
+            },
+            child: const ListTile(
+              title: Text('17. Data Table'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/widgets_18');
+            },
+            child: const ListTile(
+              title: Text('18. Basic AppBar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/widgets_19');
+            },
+            child: const ListTile(
+              title: Text('19. Search'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/widgets_20');
+            },
+            child: const ListTile(
+              title: Text('20. Sliver AppBar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
 
         ],
         
