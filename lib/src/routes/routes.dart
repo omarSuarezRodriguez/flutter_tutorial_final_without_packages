@@ -4,6 +4,13 @@ import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/06_snack_bar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/07_wrap.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/09_spacer.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/10_list_tile.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/11_media_query.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/12_list_view_builder.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/13_grid_list.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/14_expansion_tile.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/15_dimissiable_list.dart';
 
 import '../../src/basics_screen/basics_screen.dart';
 import '../../src/basics_screen/pages/01_animated_builder.dart';
@@ -64,6 +71,15 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/widgets_06'          : (BuildContext context) => const SnackBarWidget(),
     '/widgets_07'          : (BuildContext context) => const WrapWidget(),
     '/widgets_08'          : (BuildContext context) => const ExpandedWidget(),
+    '/widgets_09'          : (BuildContext context) => const SpacerWidget(),
+    '/widgets_10'          : (BuildContext context) => const ListTileWidget(),
+    '/widgets_11'          : (BuildContext context) => const MediaQueryWidget(),
+    '/widgets_12'          : (BuildContext context) => const ListViewBuilderWidget(),
+    '/widgets_13'          : (BuildContext context) => const GridListWidget(),
+    '/widgets_14'          : (BuildContext context) => const ExpansionTileWidget(),
+    '/widgets_15'          : (BuildContext context) => const DimissiableListWidget(),
+    
+    
     
 
 
