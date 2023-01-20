@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/06_snack_bar.dart';
+import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/07_wrap.dart';
 
 import '../../src/basics_screen/basics_screen.dart';
 import '../../src/basics_screen/pages/01_animated_builder.dart';
@@ -16,15 +18,12 @@ import '../../src/basics_screen/pages/09_hero_animation.dart';
 import '../../src/basics_screen/pages/10_animated_list.dart';
 import '../../src/basics_screen/pages/11_animated_positioned.dart';
 import '../../src/basics_screen/pages/12_animated_switcher.dart';
-import '../../src/basics_screen/pages/13_card_swipe.dart';
-import '../../src/basics_screen/pages/14_carousel.dart';
 import '../../src/basics_screen/pages/15_curved_animation.dart';
-import '../../src/basics_screen/pages/16_expand_card.dart';
-import '../../src/basics_screen/pages/17_focus_image.dart';
 import '../../src/basics_screen/pages/18_physics_card_drag.dart';
 import '../../src/basics_screen/pages/19_repeating_animation.dart';
 
 
+import '../widgets_screen/pages/08_expanded_and_sized_box.dart';
 import '../widgets_screen/widgets_screen.dart';
 import '../widgets_screen/pages/01_icon.dart';
 import '../widgets_screen/pages/02_text.dart';
@@ -51,11 +50,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_10'           : (BuildContext context) => const AnimatedListDemo(),
     '/basics_11'           : (BuildContext context) => const AnimatedPositionedDemo(),
     '/basics_12'           : (BuildContext context) => const AnimatedSwitcherDemo(),
-    '/basics_13'           : (BuildContext context) => const CardSwipeDemo(),
-    '/basics_14'           : (BuildContext context) => CarouselDemo(),
     '/basics_15'           : (BuildContext context) => const CurvedAnimationDemo(),
-    '/basics_16'           : (BuildContext context) => const ExpandCardDemo(),
-    '/basics_17'           : (BuildContext context) => const FocusImageDemo(),
     '/basics_18'           : (BuildContext context) => const PhysicsCardDragDemo(),
     '/basics_19'           : (BuildContext context) => const RepeatingAnimationDemo(),
 
@@ -66,6 +61,9 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/widgets_03'          : (BuildContext context) => const CircleAvatarPage(),
     '/widgets_04'          : (BuildContext context) => const ToggleButtonsWidget(),
     '/widgets_05'          : (BuildContext context) => const ContainerWidget(),
+    '/widgets_06'          : (BuildContext context) => const SnackBarWidget(),
+    '/widgets_07'          : (BuildContext context) => const WrapWidget(),
+    '/widgets_08'          : (BuildContext context) => const ExpandedWidget(),
     
 
 

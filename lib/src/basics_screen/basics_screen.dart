@@ -181,33 +181,6 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_13');
-            },
-            child: const ListTile(
-              title: Text('13. Card Swipe'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_14');
-            },
-            child: const ListTile(
-              title: Text('14. Carousel'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
 
           const SizedBox(height: 7),
           InkWell(
@@ -223,33 +196,7 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_16');
-            },
-            child: const ListTile(
-              title: Text('16. Expand Card'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
-
-          const SizedBox(height: 7),
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/basics_17');
-            },
-            child: const ListTile(
-              title: Text('17. Focus Image'),
-              leading: Icon(
-                Icons.data_object_rounded,
-                color: Colors.lime,
-              ),
-            ),
-          ),
+          
 
           const SizedBox(height: 7),
           InkWell(
