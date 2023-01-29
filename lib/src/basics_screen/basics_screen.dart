@@ -226,19 +226,34 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
-          // const SizedBox(height: 7),
-          // InkWell(
-          //   onTap: () {
-          //     Navigator.pushNamed(context, '/basics_20');
-          //   },
-          //   child: const ListTile(
-          //     title: Text('20. Splash Screen'),
-          //     leading: Icon(
-          //       Icons.data_object_rounded,
-          //       color: Colors.lime,
-          //     ),
-          //   ),
-          // ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_20');
+            },
+            child: const ListTile(
+              title: Text('20. Tabs'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_21');
+            },
+            child: const ListTile(
+              title: Text('21. Navigation Drawer'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
 
 
 

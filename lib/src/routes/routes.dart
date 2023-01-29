@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/20_tabs.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
@@ -35,6 +36,7 @@ import '../../src/basics_screen/pages/18_physics_card_drag.dart';
 import '../../src/basics_screen/pages/19_repeating_animation.dart';
 
 
+import '../basics_screen/pages/21_navigation_drawer.dart';
 import '../widgets_screen/pages/08_expanded_and_sized_box.dart';
 import '../widgets_screen/widgets_screen.dart';
 import '../widgets_screen/pages/01_icon.dart';
@@ -65,6 +67,10 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_15'           : (BuildContext context) => const CurvedAnimationDemo(),
     '/basics_18'           : (BuildContext context) => const PhysicsCardDragDemo(),
     '/basics_19'           : (BuildContext context) => const RepeatingAnimationDemo(),
+    '/basics_20'           : (BuildContext context) => const TabsExample(),
+    '/basics_21'           : (BuildContext context) => const NavigationDrawer(),
+    
+    
 
 
     '/widgets_screen'      : (BuildContext context) => const WidgetsScreen(showNavBottomBar: true),
