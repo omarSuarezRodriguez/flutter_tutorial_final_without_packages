@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class NavigationDrawer extends StatelessWidget {
   const NavigationDrawer({super.key});
 
@@ -15,11 +14,8 @@ class NavigationDrawer extends StatelessWidget {
   }
 }
 
-
 class NavDrawerExample extends StatelessWidget {
   const NavDrawerExample({super.key});
-
-  
 
   @override
   Widget build(BuildContext context) {

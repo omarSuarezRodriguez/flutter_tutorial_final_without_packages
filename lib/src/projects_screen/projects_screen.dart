@@ -15,10 +15,10 @@ class ProjectsScreen extends StatelessWidget {
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
-              // Navigator.pushNamed(context, '/projects_01');
+              Navigator.pushNamed(context, '/projects_01');
             },
             child: const ListTile(
-              title: Text('1. Item Uno'),
+              title: Text('1. Login Screen 1'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,

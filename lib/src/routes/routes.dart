@@ -1,5 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/20_tabs.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/22_bottom_tab_bar.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/23_bottom_navigation_bar.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/25_draggable.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/26_silver_collapsing_list.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/27_custom_paint.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/28_tool_tip.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/29_fitted_box.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/30_animated_icon.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/31_physical_model.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/32_data_table_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/33_clip_rect.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/34_selectable_text.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/35_radio_button.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/36_check_box.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/37_floating_action_button.dart';
+import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/01_login_01/01_login_screen_01.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
@@ -34,6 +50,7 @@ import '../../src/basics_screen/pages/12_animated_switcher.dart';
 import '../../src/basics_screen/pages/15_curved_animation.dart';
 import '../../src/basics_screen/pages/18_physics_card_drag.dart';
 import '../../src/basics_screen/pages/19_repeating_animation.dart';
+import '../basics_screen/pages/24_alignment_widget.dart';
 
 
 import '../basics_screen/pages/21_navigation_drawer.dart';
@@ -69,6 +86,23 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_19'           : (BuildContext context) => const RepeatingAnimationDemo(),
     '/basics_20'           : (BuildContext context) => const TabsExample(),
     '/basics_21'           : (BuildContext context) => const NavigationDrawer(),
+    '/basics_22'           : (BuildContext context) => const DraggableScrollableShet(),
+    '/basics_23'           : (BuildContext context) => const OpacityExamp(),
+    '/basics_24'           : (BuildContext context) => const AlignmentWidgetExample(),
+    '/basics_25'           : (BuildContext context) => const DraggablePageExample(),
+    '/basics_26'           : (BuildContext context) => const SilverCollapsingListExample(),
+    '/basics_27'           : (BuildContext context) => const CustomPaintExample(),
+    '/basics_28'           : (BuildContext context) => const TooltipWidgetExample(),
+    '/basics_29'           : (BuildContext context) => const FittedBoxWidgetExample(),
+    '/basics_30'           : (BuildContext context) => const AnimatedIconWidgetExample(),
+    '/basics_31'           : (BuildContext context) => const PhysicalmodelExample(),
+    '/basics_32'           : (BuildContext context) => const DataTableExampleTwo(),
+    '/basics_33'           : (BuildContext context) => const ClipRectExample(),
+    '/basics_34'           : (BuildContext context) => const SelectableTextExample(),
+    '/basics_35'           : (BuildContext context) => const RadioButtonExample(),
+    '/basics_36'           : (BuildContext context) => const CheckBoxExample(),
+    '/basics_37'           : (BuildContext context) => const FloatingActionButtonExample(),
+    
     
     
 
@@ -101,7 +135,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
 
 
     '/projects_screen'     : (BuildContext context) => const ProjectsScreen(showNavBottomBar: true),
-    // '/projects_01'         : (BuildContext context) => const MyAdaptingApp(),
+    '/projects_01'         : (BuildContext context) => const LoginScreen1Example(),
     
     
   
