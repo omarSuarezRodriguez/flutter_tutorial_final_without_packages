@@ -15,7 +15,21 @@ import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/35_radio_button.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/36_check_box.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/37_floating_action_button.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/38_material_app_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/39_scaffold_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/40_app_bar_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/41_container_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/42_text_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/43_buttons_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/44_snack_bar_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/45_alert.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/46_columns.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/47_row.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/48_icons_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/49_image_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/50_list_view_example.dart';
 import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/01_login_01/01_login_screen_01.dart';
+import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/02_login_02/02_login_screen_02.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
@@ -102,6 +116,27 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_35'           : (BuildContext context) => const RadioButtonExample(),
     '/basics_36'           : (BuildContext context) => const CheckBoxExample(),
     '/basics_37'           : (BuildContext context) => const FloatingActionButtonExample(),
+    '/basics_38'           : (BuildContext context) => const MaterialAppExample(),
+    '/basics_39'           : (BuildContext context) => const ScaffoldExample(),
+    '/basics_40'           : (BuildContext context) => const AppBarExample(),
+    '/basics_41'           : (BuildContext context) => const ContainerExampleTwo(),
+    '/basics_42'           : (BuildContext context) => const TextExampleTwo(),
+    '/basics_43'           : (BuildContext context) => const ButtonsExample(),
+    '/basics_44'           : (BuildContext context) => const SnackBarExample(),
+    '/basics_45'           : (BuildContext context) => const AlertsExample(),
+    '/basics_46'           : (BuildContext context) => const ColumnsExample(),
+    '/basics_47'           : (BuildContext context) => const RowExample(),
+    '/basics_48'           : (BuildContext context) => const IconsExampleTwo(),
+    '/basics_49'           : (BuildContext context) => const ImageExample(),
+    '/basics_50'           : (BuildContext context) => const ListViewExample(),
+    
+
+
+
+
+
+
+
     
     
     
@@ -136,6 +171,8 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
 
     '/projects_screen'     : (BuildContext context) => const ProjectsScreen(showNavBottomBar: true),
     '/projects_01'         : (BuildContext context) => const LoginScreen1Example(),
+    '/projects_02'         : (BuildContext context) => const LoginScreen2Example(),
+    
     
     
   
