@@ -28,8 +28,15 @@ import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/48_icons_example_two.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/49_image_example.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/50_list_view_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/51_grid_view_example_2,.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/52_sized_box_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/53_stack_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/55_hero_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/56_navigation_drawer_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/57_backdrop_filter.dart';
 import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/01_login_01/01_login_screen_01.dart';
 import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/02_login_02/02_login_screen_02.dart';
+import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/03_communication_between_widgets/main.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
@@ -129,6 +136,16 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_48'           : (BuildContext context) => const IconsExampleTwo(),
     '/basics_49'           : (BuildContext context) => const ImageExample(),
     '/basics_50'           : (BuildContext context) => const ListViewExample(),
+    '/basics_51'           : (BuildContext context) => const GridViewExampleTwo(),
+    '/basics_52'           : (BuildContext context) => const SizedBoxExampleTwo(),
+    '/basics_53'           : (BuildContext context) => const StackExampleTwo(),
+    // '/basics_54'           : (BuildContext context) => const CupertinoPageExample(),
+    '/basics_55'           : (BuildContext context) => const HeroExampleTwo(),
+    '/basics_56'           : (BuildContext context) => const NavigationDrawerExampleTwo(),
+    '/basics_57'           : (BuildContext context) => const LBackDropFilterExample(),
+    
+    
+    
     
 
 
@@ -172,6 +189,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/projects_screen'     : (BuildContext context) => const ProjectsScreen(showNavBottomBar: true),
     '/projects_01'         : (BuildContext context) => const LoginScreen1Example(),
     '/projects_02'         : (BuildContext context) => const LoginScreen2Example(),
+    '/projects_03'         : (BuildContext context) => MainCommunicationWidgets(),
     
     
     

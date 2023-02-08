@@ -673,6 +673,104 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_51');
+            },
+            child: const ListTile(
+              title: Text('51. Grid View Example 2'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_52');
+            },
+            child: const ListTile(
+              title: Text('52. Sized Box Example 2'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_53');
+            },
+            child: const ListTile(
+              title: Text('53. Stack Example 2'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          // const SizedBox(height: 7),
+          // InkWell(
+          //   onTap: () {
+          //     Navigator.pushNamed(context, '/basics_54');
+          //   },
+          //   child: const ListTile(
+          //     title: Text('54. Cupertino Page App'),
+          //     leading: Icon(
+          //       Icons.data_object_rounded,
+          //       color: Colors.lime,
+          //     ),
+          //   ),
+          // ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_55');
+            },
+            child: const ListTile(
+              title: Text('55. Hero Example 2'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_56');
+            },
+            child: const ListTile(
+              title: Text('56. Navigation Drawer 2'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_57');
+            },
+            child: const ListTile(
+              title: Text('57. Backdrop Filter'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
 
 
 

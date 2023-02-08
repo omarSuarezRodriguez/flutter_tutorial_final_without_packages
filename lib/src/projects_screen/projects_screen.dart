@@ -40,6 +40,20 @@ class ProjectsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_03');
+            },
+            child: const ListTile(
+              title: Text('3. Communication Between Widgets'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
 
 
 

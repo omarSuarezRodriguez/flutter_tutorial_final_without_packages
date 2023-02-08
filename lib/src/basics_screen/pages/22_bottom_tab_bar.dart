@@ -6,7 +6,7 @@ class DraggableScrollableShet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Bottom TabBar')),
+      appBar: AppBar(title: const Text('Grid View')),
       body: const Center(
         child: DraggableScrollableSheetExample(),
       ),
