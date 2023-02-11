@@ -31,12 +31,36 @@ import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/51_grid_view_example_2,.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/52_sized_box_example_two.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/53_stack_example_two.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/54_my_custom_app_bar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/55_hero_example_two.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/56_navigation_drawer_example_two.dart';
 import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/57_backdrop_filter.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/58_custom_sliver_header.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/59_foldable_animation.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/60_sliver_appbar_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/61_sliver_list_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/62_sliver_grid.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/63_animated_icon_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/64_expanded_page_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/65_wrap_page_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/66_fade_in_image.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/67_list_wheel_scroll_view_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/68_indexed_stack_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/69_transparent_appbar_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/70_conditional_if_expression_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/71_animated_switcher_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/72_form_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/73_material_banner_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/74_material_modal_bottom_sheet.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/75_interactive_viewer_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/76_animated_cross_fade_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/77_grid_image_example.dart';
+import 'package:flutter_tutorial_final_without_packages/src/basics_screen/pages/78_image_with_title_and_bottom.dart';
 import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/01_login_01/01_login_screen_01.dart';
 import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/02_login_02/02_login_screen_02.dart';
 import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/03_communication_between_widgets/main.dart';
+import 'package:flutter_tutorial_final_without_packages/src/projects_screen/projects/04_hero_animations/main.dart';
+
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/03_circle_avatar.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/04_toggle_buttons.dart';
 import 'package:flutter_tutorial_final_without_packages/src/widgets_screen/pages/05_container.dart';
@@ -139,10 +163,35 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_51'           : (BuildContext context) => const GridViewExampleTwo(),
     '/basics_52'           : (BuildContext context) => const SizedBoxExampleTwo(),
     '/basics_53'           : (BuildContext context) => const StackExampleTwo(),
-    // '/basics_54'           : (BuildContext context) => const CupertinoPageExample(),
+    '/basics_54'           : (BuildContext context) => const MyCustomAppBarPageExample(),
     '/basics_55'           : (BuildContext context) => const HeroExampleTwo(),
     '/basics_56'           : (BuildContext context) => const NavigationDrawerExampleTwo(),
     '/basics_57'           : (BuildContext context) => const LBackDropFilterExample(),
+    '/basics_58'           : (BuildContext context) => const CustomSliverHeaderExample(),
+    '/basics_59'           : (BuildContext context) => const FoldablePageExample(),
+    '/basics_60'           : (BuildContext context) => const SliverAppBarExampleTwo(),
+    '/basics_61'           : (BuildContext context) => const SliverListExample(),
+    '/basics_62'           : (BuildContext context) => const SliverGridExample(),
+    '/basics_63'           : (BuildContext context) => const AnimatedIconExample(),
+    '/basics_64'           : (BuildContext context) => const ExpandedPageExample(),
+    '/basics_65'           : (BuildContext context) => const WrapPageExample(),
+    '/basics_66'           : (BuildContext context) => const FadeInImageExamplePage(),
+    '/basics_67'           : (BuildContext context) => const ListWheelScrollViewExample(),
+    '/basics_68'           : (BuildContext context) => const IndexedStackExample(),
+    '/basics_69'           : (BuildContext context) => const TransparentAppBarExampleExample(),
+    '/basics_70'           : (BuildContext context) => const ConditionalIfExpressionExample(),
+    '/basics_71'           : (BuildContext context) => const AnimatedSwitcherExample(),
+    '/basics_72'           : (BuildContext context) => const FormExample(),
+    '/basics_73'           : (BuildContext context) => const MaterialBannerExample(),
+    '/basics_74'           : (BuildContext context) => const MaterialBottomSheetExample(),
+    '/basics_75'           : (BuildContext context) => const InteractiveViewerExample(),
+    '/basics_76'           : (BuildContext context) => const AnimatedCossFadeExample(),
+    '/basics_77'           : (BuildContext context) => const GridImageExample(),
+    '/basics_78'           : (BuildContext context) => const ImageWithTitleAndFooterExample(),
+    
+    
+    
+    
     
     
     
@@ -190,6 +239,10 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/projects_01'         : (BuildContext context) => const LoginScreen1Example(),
     '/projects_02'         : (BuildContext context) => const LoginScreen2Example(),
     '/projects_03'         : (BuildContext context) => MainCommunicationWidgets(),
+    '/projects_04'         : (BuildContext context) => MainHeroAnimationsPage(),
+    
+    
+    
     
     
     

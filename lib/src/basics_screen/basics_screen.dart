@@ -715,19 +715,19 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
-          // const SizedBox(height: 7),
-          // InkWell(
-          //   onTap: () {
-          //     Navigator.pushNamed(context, '/basics_54');
-          //   },
-          //   child: const ListTile(
-          //     title: Text('54. Cupertino Page App'),
-          //     leading: Icon(
-          //       Icons.data_object_rounded,
-          //       color: Colors.lime,
-          //     ),
-          //   ),
-          // ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_54');
+            },
+            child: const ListTile(
+              title: Text('54. My Custom AppBar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
 
           const SizedBox(height: 7),
           InkWell(
@@ -764,6 +764,301 @@ class BasicsScreen extends StatelessWidget {
             },
             child: const ListTile(
               title: Text('57. Backdrop Filter'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_58');
+            },
+            child: const ListTile(
+              title: Text('58. Custom Sliver Header'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_59');
+            },
+            child: const ListTile(
+              title: Text('59. Foldable Page'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_60');
+            },
+            child: const ListTile(
+              title: Text('60. Sliver AppBar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_61');
+            },
+            child: const ListTile(
+              title: Text('61. Sliver List'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_62');
+            },
+            child: const ListTile(
+              title: Text('62. Sliver Grid'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_63');
+            },
+            child: const ListTile(
+              title: Text('63. Animated Icon'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_64');
+            },
+            child: const ListTile(
+              title: Text('64. Expanded Page Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_65');
+            },
+            child: const ListTile(
+              title: Text('65. Wrap Page Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          //  Prueba
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_66');
+            },
+            child: const ListTile(
+              title: Text('66. FadeInImage'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_67');
+            },
+            child: const ListTile(
+              title: Text('67. ListWheelScrollView'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_68');
+            },
+            child: const ListTile(
+              title: Text('68. Indexed Stack'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_69');
+            },
+            child: const ListTile(
+              title: Text('69. Transparent AppBar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_70');
+            },
+            child: const ListTile(
+              title: Text('70. Conditional if Expression'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_71');
+            },
+            child: const ListTile(
+              title: Text('71. Animated Switcher'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_72');
+            },
+            child: const ListTile(
+              title: Text('72. Form Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_73');
+            },
+            child: const ListTile(
+              title: Text('73. Material Banner Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_74');
+            },
+            child: const ListTile(
+              title: Text('74. Material Bottom Sheet'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_75');
+            },
+            child: const ListTile(
+              title: Text('75. Interactive Viewer'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_76');
+            },
+            child: const ListTile(
+              title: Text('76. Animated CrossFade'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_77');
+            },
+            child: const ListTile(
+              title: Text('77. Grid Image'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_78');
+            },
+            child: const ListTile(
+              title: Text('78. Image with Title and Bottom'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,

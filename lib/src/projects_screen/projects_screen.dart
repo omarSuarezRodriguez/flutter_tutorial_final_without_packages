@@ -54,6 +54,22 @@ class ProjectsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_04');
+            },
+            child: const ListTile(
+              title: Text('4. Hero Animations'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          
+
 
 
 

@@ -24,12 +24,21 @@ class LImage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Text("Image from Asset"),
-            // Image.asset("image/logo.png"),
+
+            Text("Flutter Logo"),
             FlutterLogo(),
-            Text("Image from Network"),
+            SizedBox(height: 20.0),
+
+            Text("Image from network"),
+            // Image.asset("image/logo.png"),
+            SizedBox(height: 20.0),
+
+            Text("Image from web"),
             Image.network(
                 "https://miro.medium.com/max/3200/1*mMJ3IvaAuMAmqjtyistCog.png"),
+            SizedBox(height: 20.0),
+
+
           ],
         ),
       ),
